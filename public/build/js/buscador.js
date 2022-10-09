@@ -1,0 +1,1 @@
+function InitApp(){searchInDate()}function searchInDate(){document.querySelector("#fecha").addEventListener("input",(function(e){let n=e.target.value;window.location="?fecha="+n}))}document.addEventListener("DOMContentLoaded",()=>{InitApp()});
